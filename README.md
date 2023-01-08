@@ -1,6 +1,6 @@
 # Python-Scratch-Projects
 Basic Python Projects
 ## Table of Contents
-* [General Info]
-* [Technologies]
-* [Setup]
+* [General Info](#general-info)
+* [Technologies] (#technologies)
+* [Setup] (#setup)
