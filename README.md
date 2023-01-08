@@ -2,5 +2,5 @@
 Basic Python Projects
 ## Table of Contents
 * [General Info](#general-info)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
+* [Technologies](#technologies)
+* [Setup](#setup)
