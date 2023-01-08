@@ -6,6 +6,9 @@ Basic Python Projects
 * [Setup](#setup)
 ### General Info
 This repository contains Python Scratch Projects as the name suggests. It contains several basic projects all written in Python.
+### Requirements to run project:
+* Operating System: Windows | MacOS | Linux
+* Required runtime: 
 ### Technologies
 This project is created with:
 * Python 3.10.2 
