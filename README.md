@@ -12,8 +12,10 @@ This repository contains Python Scratch Projects as the name suggests. It contai
 ### Technologies
 This project is created with:
 * Python 3.10.2 
+
 The IDE which I use to write my code is:
 * PyCharm Edu 2021.3.2
 ### Setup 
 To run any of the code files in this project simply download a copy of the repository to your computer and open the project using your favourite IDE. 
+
 PS: I recommend PyCharm 
