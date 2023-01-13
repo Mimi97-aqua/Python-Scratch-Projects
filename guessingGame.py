@@ -4,8 +4,8 @@
 #When I enter my name
 #2. It will ask me to guess a number.
 #When I type in a number it will tell me if I’m hot or if I’m cold.
-#Hot => means I'm getting close to the right number.
-#Cold => means I’m far from guessing the right number.
+#Hot => means I'm getting close to the right number
+#Cold => means I’m far from guessing the right number
 
 #When I guess the right number it will tell I won after X tries. X being the number of guesses I made.
 #Then it will ask if I want to play again or leave the game.
@@ -15,7 +15,7 @@
 import random
 import math
 
-    def guessing_game_function():
+   def guessing_game_function():
         name = input("Enter your name: ")
         print("Welcome ", name)
         lowerBound = 0
