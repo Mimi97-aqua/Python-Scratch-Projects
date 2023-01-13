@@ -13,4 +13,15 @@ This repository contains Python Scratch Projects.
 IDE:
 * PyCharm Edu 2021.3.2
 ### Setup 
-To run any of the code files in this project simply download a copy of the repository to your computer and open the project using your favourite IDE. 
+To run this project:
+
+1. Click the green button which has code written on it and copy the link under HTTPS
+
+2. Open Git Bash and change your current working directory to your preferred location where you'd like the clone directory to be. 
+
+3. Type:
+```
+$git clone https://github.com/URL-you-copied
+```
+
+4. Press ENTER to create your local clone. 
