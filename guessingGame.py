@@ -21,13 +21,14 @@ import math
         upperBound = 50
         #generating random number,x,between set lowerbound and upperbound
         x = random.randint(lowerBound, upperBound)
+        minGuessingNum = math.log(upperBound - lowerBound + 1, 2)
         print("INSTRUCTION: You are to guess a number from 0 to 50")
         print("NOTE: You've only ",
-               round(math.log(upperBound - lowerBound + 1, 2)),
+               round(minGuessingNum),
               " chances to guess the right number!\n")
         #initializing number of guesses
         count = 0
-        while count < math.log(upperBound - lowerBound + 1, 2):
+        while count < minGuessingNum:
             count += 1
             guess = int(input("Guess a number:- "))
             if x == guess:
