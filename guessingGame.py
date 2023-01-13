@@ -21,7 +21,7 @@ import math
         lowerBound = 0
         upperBound = 50
         #generating random number,x,between set lowerbound and upperbound
-        randomNumber = random.randint(lowerBound, upperBound)
+        x = random.randint(lowerBound, upperBound)
         print("INSTRUCTION: You are to guess a number from 0 to 50")
         print("NOTE: You've only ",
                round(math.log(upperBound - lowerBound + 1, 2)),
@@ -31,17 +31,17 @@ import math
         while count < math.log(upperBound - lowerBound + 1, 2):
             count += 1
             guess = int(input("Guess a number:- "))
-            if randomNumber == guess:
+            if x == guess:
                 print("Congratulations you guessed after ",
                       count, " tries")
                 break
-            elif randomNumber > guess:
+            elif x > guess:
                 print("Hot")
-            elif randomNumber < guess:
+            elif x < guess:
                 print("cold")
         #if user exhausts maximum number of guesses
         if count >= math.log(upperBound - lowerBound + 1, 2):
-            print("\nThe number is %d" % randomNumber , "Try again")
+            print("\nThe number is %d" % x , "Try again")
 
     guessing_game_function()
 
