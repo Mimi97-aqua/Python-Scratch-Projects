@@ -17,11 +17,10 @@ To run this project:
 
 1. Click the green button which has code written on it and copy the link under HTTPS
 
-2. Open Git Bash and change your current working directory to your preferred location where you'd like the clone directory to be. 
-
+2. Open Git Bash and cd into your preferred directory.
 3. Type:
 ```
-$git clone https://github.com/URL-you-copied
+$git clone https://github.com/Mimi97-aqua/Python-Scratch-Projects.git
 ```
 
 4. Press ENTER to create your local clone. 
