@@ -14,7 +14,6 @@
 
 import random
 import math
-
     def guessing_game_function():
         name = input("Enter your name: ")
         print("Welcome ", name)
