@@ -15,7 +15,7 @@ IDE:
 ### Setup 
 To run this project:
 
-1. Click the green button which has code written on it and copy the link under HTTPS
+1. Click the green button which has code written on it and copy the link under HTTPS.
 
 2. Open Git Bash and cd into your preferred location.
 3. Type:
