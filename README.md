@@ -12,6 +12,7 @@ This repository contains Python Scratch Projects.
 
 IDE:
 * PyCharm Edu 2021.3.2
+* Visual Studio Code version 1.75
 ### Setup 
 To run this project:
 
