@@ -14,7 +14,8 @@
 
 import random
 import math
-    def guessing_game_function():
+
+def guessing_game_function():
         name = input("Enter your name: ")
         print("Welcome ", name)
         lowerBound = 0
@@ -42,10 +43,10 @@ import math
         if count >= math.log(upperBound - lowerBound + 1, 2):
             print("\nThe number is %d" % x , "Try again")
 
-    guessing_game_function()
+guessing_game_function()
 
-    answer = input("Do you wish to play again? YES or NO: ")
-    if answer == "YES" or answer == "Yes" or answer == "yes":
+answer = input("Do you wish to play again? YES or NO: ")
+if answer == "YES" or answer == "Yes" or answer == "yes":
         guessing_game_function()
-    elif answer == "NO" or answer == "No" or answer == "no":
+elif answer == "NO" or answer == "No" or answer == "no":
         print("Close IDE")
