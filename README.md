@@ -16,9 +16,9 @@ IDE:
 ### Setup 
 To run this project:
 
-1. Click the green button which has code written on it and copy the link under HTTPS
+1. Click the green button which has code written on it and copy the link under HTTPS.
 
-2. Open Git Bash and cd into your preferred directory.
+2. Open Git Bash and cd into your preferred location.
 3. Type:
 ```
 $git clone https://github.com/Mimi97-aqua/Python-Scratch-Projects.git
