@@ -45,7 +45,9 @@ import math
     guessing_game_function()
 
     answer = input("Do you wish to play again? YES or NO: ")
-    if answer == "YES" or answer == "Yes" or answer == "yes":
+    if answer == "YES":
+        answer.lower()
         guessing_game_function()
-    elif answer == "NO" or answer == "No" or answer == "no":
+    elif answer == "NO":
+        answer.lower()
         print("Close IDE")
